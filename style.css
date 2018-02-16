@@ -2,5 +2,14 @@ footer {
   width: 100%;
   position: fixed;
   bottom: 0;
-  padding: 5px;
+  padding-bottom: 10px;
+}
+
+#foodOutput {
+  list-style: none;
+  padding: 0 !important;
+}
+
+#foodOutput li {
+  padding-top: 15px;
 }

@@ -11,16 +11,19 @@
     <script text="type/javascript" src="script.js"></script>
 
   </head>
-  <body>
-    <div class="container text-center">
+  <body class="text-center">
+    <div class="container">
       <h1>Recipe Search</h1>
 
       <div class="jumbotron col-sm-6 col-sm-offset-3">
         <form>
           <label>Search for recipes by ingredient:</label>
           <input id="foodInput" class="form-control" type="text"/><br/>
-          <input id="foodSubmit" class="btn btn-success" type="submit" value="Yoda-fy"/>
+          <input id="foodSubmit" class="btn btn-success" type="submit" value="Submit"/>
         </form>
+
+        <h3 id="recipeHeader"></h3>
+        <ol id="foodOutput"></ol>
       </div>
     </div>
 
