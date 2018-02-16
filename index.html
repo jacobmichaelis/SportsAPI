@@ -2,24 +2,26 @@
 <html>
   <head>
     <title>Creative Project 2</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script text="type/javascript" src="script.js"></script>
+
   </head>
   <body>
+    <div class="container text-center">
+      <h1>Yoda Speak</h1>
 
-    <h1></h1>
-
-
-
-    <div class="container">
-      <form>
-        <label>Enter a U.S. city</label>
-        <input id="city" type="text"></input><br/>
-        <input id="cityWeatherSubmit" type="submit" value="Submit"></input>
-      </form>
-      <div id="cityWeatherResults"></div>
+      <div class="jumbotron col-sm-6 col-sm-offset-3">
+        <form>
+          <label>Type a sentence, see how Yoda would say it:</label>
+          <input id="yodaInput" class="form-control" type="text"/><br/>
+          <input id="yodaSubmit" class="btn btn-success" type="submit" value="Yoda-fy"/>
+        </form>
+      </div>
     </div>
 
     <footer>
